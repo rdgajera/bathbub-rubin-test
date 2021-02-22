@@ -1,0 +1,27 @@
+body{
+  background:#11bb19;
+  display:flex;
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  align-items:center;
+  justify-content:center;
+  height:110vh;
+}
+.tub{
+  position:relative;
+  height:110px;
+  width:400px;
+  background-color: #cdd4d2;
+  border-left:25px solid white;
+  border-bottom:25px solid white;
+  border-right:25px solid white;
+  overflow:hidden;
+}
+
+.water{
+  position:absolute;
+  width:400px;
+  bottom: 0px;
+  background-color: #30fff8;
+}
